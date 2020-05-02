@@ -5,7 +5,7 @@ Année = gets.chomp.to_i
 Année.upto 2020 do |x|
 
 
-puts "#{x} vous avez #{x - Année}"
+puts "#{x} vous aviez #{x - Année}"
 
 
 end
